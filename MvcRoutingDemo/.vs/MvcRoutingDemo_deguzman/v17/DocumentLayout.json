@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MvcRoutingDemo_deguzman\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F97A47D-4A4F-43DF-A3E3-61B44997BB76}|MvcRoutingDemo_deguzman\\MvcRoutingDemo_deguzman.csproj|C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MvcRoutingDemo_deguzman\\mvcroutingdemo_deguzman\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F97A47D-4A4F-43DF-A3E3-61B44997BB76}|MvcRoutingDemo_deguzman\\MvcRoutingDemo_deguzman.csproj|solutionrelative:mvcroutingdemo_deguzman\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F97A47D-4A4F-43DF-A3E3-61B44997BB76}|MvcRoutingDemo_deguzman\\MvcRoutingDemo_deguzman.csproj|c:\\users\\murph\\onedrive\\\u6587\u6863\\mvcroutingdemo_deguzman\\mvcroutingdemo_deguzman\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F97A47D-4A4F-43DF-A3E3-61B44997BB76}|MvcRoutingDemo_deguzman\\MvcRoutingDemo_deguzman.csproj|solutionrelative:mvcroutingdemo_deguzman\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F97A47D-4A4F-43DF-A3E3-61B44997BB76}|MvcRoutingDemo_deguzman\\MvcRoutingDemo_deguzman.csproj|c:\\users\\murph\\onedrive\\\u6587\u6863\\mvcroutingdemo_deguzman\\mvcroutingdemo_deguzman\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F97A47D-4A4F-43DF-A3E3-61B44997BB76}|MvcRoutingDemo_deguzman\\MvcRoutingDemo_deguzman.csproj|solutionrelative:mvcroutingdemo_deguzman\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MvcRoutingDemo_deguzman\\MvcRoutingDemo_deguzman\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "MvcRoutingDemo_deguzman\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MvcRoutingDemo_deguzman\\MvcRoutingDemo_deguzman\\Models\\Student.cs",
+              "RelativeToolTip": "MvcRoutingDemo_deguzman\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T11:49:04.64Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MvcRoutingDemo_deguzman\\MvcRoutingDemo_deguzman\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "MvcRoutingDemo_deguzman\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MvcRoutingDemo_deguzman\\MvcRoutingDemo_deguzman\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "MvcRoutingDemo_deguzman\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T04:40:00.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MvcRoutingDemo_deguzman\\MvcRoutingDemo_deguzman\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "MvcRoutingDemo_deguzman\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MvcRoutingDemo_deguzman\\MvcRoutingDemo_deguzman\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "MvcRoutingDemo_deguzman\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T04:38:05.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Subject";
+    var subjects = new List<string> { "Web Developer", "Database Manager", "Networking" };
+}
+
+<h2>Student Subjects</h2>
+<ul>
+    @foreach (var subject in subjects)
+    {
+        <li>@subject</li>
+    }
+</ul>
+
+<a href="/Student/Profile">Back to Profile</a>

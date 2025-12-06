@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Profile";
+    var subjects = new List<string> { "Web Developer", "Database Manager", "Networking" };
+}
+
+<h2>Student Profile</h2>
+<p><strong>Name:</strong> @ViewBag.Name</p>
+<p><strong>Course:</strong>@ViewBag.Course</p>
+<p><strong>Year Level:</strong> @ViewBag.Year</p>
+<p><strong>Age:</strong> @ViewData["Age"]</p>
+
+<a href="/Student/subject">View Subjects</a>
+<br />
+<a href="/Student/StudentList">View Student List</a>
+<br />
+<a href="/Student/Index">Back to Home</a>
+
+

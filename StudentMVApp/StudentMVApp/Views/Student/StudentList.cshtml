@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "StudentList";
+}
+
+@model List <string>
+
+<h2>List of Student:</h2>
+
+<ol>
+    @foreach (var student in Model)
+            {
+                <li>@student</li>
+            }
+</ol>
+
+<a href="/Student/Profile">Back to Profile</a>

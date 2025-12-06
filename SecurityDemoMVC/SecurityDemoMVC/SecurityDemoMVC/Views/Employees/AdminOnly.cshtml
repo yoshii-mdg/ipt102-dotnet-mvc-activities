@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Admin Only Page";
+}
+
+<h2 class="text-danger">Restricted Area: Admin Only</h2>
+<hr />
+
+<p>
+    Congratulations! You are viewing a page protected by **Role-Based Authorization**.
+</p>
+<p>
+    Only users with the **"Admin"** role can access the Employees/AdminOnly route.
+</p>
+<p>
+    Your currently logged-in username is: **@User.Identity.Name**
+</p>

@@ -1,0 +1,29 @@
+﻿@model MVCViewDemo_DeGuzman.Models.Student
+
+@{
+	ViewBag.Title = "Student Details";
+}
+
+<h2>Student Details</h2>
+
+<p><b>Student ID:</b> @Model.StudentId</p>
+<p><b>Full Name:</b> @Model.FullName</p>
+<p><b>Email:</b>@Model.Email</p>
+<p><b>Course:</b> @Model.Course</p>
+<p><b>Year Level:</b> @Model.YearLevel</p>
+<p><b>Enrolled:</b> @(Model.IsEnrolled ? "Yes": "No")</p>
+
+@if (Model.SelectedCourses != null && Model.SelectedCourses.Any())
+{
+    <p><b>Selected Courses:</b></p>
+    <ul>
+        @foreach (var course in Model.SelectedCourses)
+        {
+            <li>@course</li>
+        }
+    </ul>
+}
+else
+{
+    <p><b>Selected Courses:</b> None</p>
+}

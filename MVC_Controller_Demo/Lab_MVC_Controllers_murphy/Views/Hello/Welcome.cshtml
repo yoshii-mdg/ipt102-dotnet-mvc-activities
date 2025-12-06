@@ -1,0 +1,18 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Welcome Page";
+}
+
+<h1>Welcome to ASP.NET MVC!</h1>
+<p>This is page rendered from <b>Welcome Action</b>in the HelloController</p>
+
+<h2>@ViewData["Message"]</h2>
+
+<ul>
+    @for    (int i = 0; i < (int)ViewData["NumTimes"]; i++)
+    {
+        <li>@ViewData["Message"]</li>
+    }
+</ul>

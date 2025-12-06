@@ -1,0 +1,66 @@
+﻿@model MVCViewDemo_DeGuzman.Models.Student
+
+@{
+    ViewBag.Title = "Create Student";
+}
+
+<h2 class="mb-4">Create Student</h2>
+@using (Html.BeginForm())
+{
+    <div class="mb-3">
+        @Html.LabelFor(m => m.StudentId, htmlAttributes: new { @class = "form-label" })
+        @Html.TextBoxFor(m => m.StudentId, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.StudentId, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.FullName, htmlAttributes: new { @class = "form-label" })
+        @Html.TextBoxFor(m => m.FullName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.FullName, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Email, htmlAttributes: new { @class = "form-label" })
+        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.YearLevel, htmlAttributes: new { @class = "form-label d-block" })
+        <div class="form-check form-check-inline">
+            @Html.RadioButtonFor(m => m.YearLevel, "Freshmen", new { @class = "form-check-input", id = "year-freshmen" })
+            <label class="form-check-label" for="year-freshmen">Freshmen</label>
+        </div>
+        <div class="form-check form-check-inline">
+            @Html.RadioButtonFor(m => m.YearLevel, "Sophore", new { @class = "form-check-input", id = "year-sophore" })
+            <label class="form-check-label" for="year-sophore">Sophomore</label>
+        </div>
+        <div class="form-check form-check-inline">
+            @Html.RadioButtonFor(m => m.YearLevel, "Junior", new { @class = "form-check-input", id = "year-junior" })
+            <label class="form-check-label" for="year-junior">Junior</label>
+        </div>
+        <div class="form-check form-check-inline">
+            @Html.RadioButtonFor(m => m.YearLevel, "Senior", new { @class = "form-check-input", id = "year-senior" })
+            <label class="form-check-label" for="year-senior">Senior</label>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Course, htmlAttributes: new { @class = "form-label" })
+        @Html.DropDownListFor(m => m.Course, new SelectList(
+            new[] { "BSIT", "BSCS", "BSECE", "BSBA" }), "Select Course", new { @class = "form-select" })
+    </div>
+
+    <div class="mb-3 form-check">
+        @Html.CheckBoxFor(m => m.IsEnrolled, new { @class = "form-check-input", id = "is-enrolled" })
+        @Html.LabelFor(m => m.IsEnrolled, htmlAttributes: new { @class = "form-check-label", @for = "is-enrolled" })
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.SelectedCourses, "Skills", htmlAttributes: new { @class = "form-label" })
+        @Html.ListBoxFor(m => m.SelectedCourses, (MultiSelectList)ViewBag.Courses, new { @class = "form-select", size = 4 })
+    </div>
+
+    <p class="form-text mb-3">Select multiple skills by holding down <kbd>Ctrl</kbd> or <kbd>Cmd</kbd> while clicking on the options.</p>
+    <button type="submit" class="btn btn-primary">Save</button>
+}

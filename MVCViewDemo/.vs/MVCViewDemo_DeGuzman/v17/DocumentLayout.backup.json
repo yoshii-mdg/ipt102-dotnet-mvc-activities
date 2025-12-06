@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MVCViewDemo_DeGuzman\\MVCViewDemo_DeGuzman\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF56343-766A-4713-9ECD-4A4DC94F123F}|MVCViewDemo_DeGuzman.csproj|c:\\users\\murph\\onedrive\\\u6587\u6863\\mvcviewdemo_deguzman\\mvcviewdemo_deguzman\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEF56343-766A-4713-9ECD-4A4DC94F123F}|MVCViewDemo_DeGuzman.csproj|solutionrelative:views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF56343-766A-4713-9ECD-4A4DC94F123F}|MVCViewDemo_DeGuzman.csproj|c:\\users\\murph\\onedrive\\\u6587\u6863\\mvcviewdemo_deguzman\\mvcviewdemo_deguzman\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF56343-766A-4713-9ECD-4A4DC94F123F}|MVCViewDemo_DeGuzman.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF56343-766A-4713-9ECD-4A4DC94F123F}|MVCViewDemo_DeGuzman.csproj|c:\\users\\murph\\onedrive\\\u6587\u6863\\mvcviewdemo_deguzman\\mvcviewdemo_deguzman\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEF56343-766A-4713-9ECD-4A4DC94F123F}|MVCViewDemo_DeGuzman.csproj|solutionrelative:views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF56343-766A-4713-9ECD-4A4DC94F123F}|MVCViewDemo_DeGuzman.csproj|c:\\users\\murph\\onedrive\\\u6587\u6863\\mvcviewdemo_deguzman\\mvcviewdemo_deguzman\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF56343-766A-4713-9ECD-4A4DC94F123F}|MVCViewDemo_DeGuzman.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF56343-766A-4713-9ECD-4A4DC94F123F}|MVCViewDemo_DeGuzman.csproj|c:\\users\\murph\\onedrive\\\u6587\u6863\\mvcviewdemo_deguzman\\mvcviewdemo_deguzman\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FEF56343-766A-4713-9ECD-4A4DC94F123F}|MVCViewDemo_DeGuzman.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MVCViewDemo_DeGuzman\\MVCViewDemo_DeGuzman\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MVCViewDemo_DeGuzman\\MVCViewDemo_DeGuzman\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-29T12:36:41.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MVCViewDemo_DeGuzman\\MVCViewDemo_DeGuzman\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MVCViewDemo_DeGuzman\\MVCViewDemo_DeGuzman\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAEwBwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T11:31:07.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MVCViewDemo_DeGuzman\\MVCViewDemo_DeGuzman\\Views\\Student\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Details.cshtml",
+              "ToolTip": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MVCViewDemo_DeGuzman\\MVCViewDemo_DeGuzman\\Views\\Student\\Details.cshtml",
+              "RelativeToolTip": "Views\\Student\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T11:09:39.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MVCViewDemo_DeGuzman\\MVCViewDemo_DeGuzman\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MVCViewDemo_DeGuzman\\MVCViewDemo_DeGuzman\\Views\\Student\\Create.cshtml*",
+              "RelativeToolTip": "Views\\Student\\Create.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T11:07:32.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MVCViewDemo_DeGuzman\\MVCViewDemo_DeGuzman\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\murph\\OneDrive\\\u6587\u6863\\MVCViewDemo_DeGuzman\\MVCViewDemo_DeGuzman\\Models\\Student.cs*",
+              "RelativeToolTip": "Models\\Student.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAIA5wAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T11:05:00.723Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

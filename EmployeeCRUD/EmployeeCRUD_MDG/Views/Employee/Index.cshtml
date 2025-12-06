@@ -1,0 +1,42 @@
+﻿@model IEnumerable<EmployeeCRUD_MDG.Models.Employee>
+<h2>Employee List</h2>
+@using (Html.BeginForm("Index", "Employee", FormMethod.Get))
+{
+    <input class"btn btn-primary" type="text" name="search" placeholder="Search by name" value="@Request["search"]" />
+    <button type="submit">Search</button>
+}
+<p>
+    Sort By:
+    @Html.ActionLink("Salary", "Index", new { sortOrder = ViewBag.SalarySortParam }) |
+    @Html.ActionLink("Department", "Index", new { sortOrder = ViewBag.NameSortParam })
+</p>
+<p><a href="@Url.Action("Create")">Add New Employees</a></p>
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Department</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in Model)
+        {
+            <tr>
+                <td></td>
+                <td>@emp.Id</td>
+                <td>@emp.FullName</td>
+                <td>@emp.Position</td>
+                <td>@emp.Department</td>
+                <td>@emp.Salary</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = emp.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = emp.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = emp.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
