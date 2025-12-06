@@ -36,9 +36,11 @@ You may find the following activities inside:
 ## 🚀 How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git](https://github.com/yoshii-mdg/ipt102-dotnet-mvc-activities.git)
+   https://github.com/yoshii-mdg/ipt102-dotnet-mvc-activities.git
 
-   Run: Visual Studio 2022 or higher
+2. Open Visual Studio 2022 or Higher
+3. Run it by folder which demo you want to run
+   
  ## 👨‍🏫 For Students
 
 These activities are meant to supplement your learning in IPT102. Feel free to explore, modify, experiment, and break things—learning happens through practice!
